@@ -1,0 +1,41 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtualenv
+venv/
+env/
+.venv/
+hermes-env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite (user local cache)
+token_map.db
+*.db
+*.db-shm
+*.db-wal
+
+# Tokenizer cache (downloaded on first use)
+tokenizer.json
+
+# Logs
+*.log
+
+# Environment
+.env
